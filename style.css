@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+max-width{
+    max-width:1300px;
+    padding:0 80px;
+    margin:auto;
+}
+/*styling navigation bar  */
+.navbar{
+    position:fixed;
+    width:100%;
+    padding:15px;
+    background:crimson;
+    font-family: 'ubuntu',san-serif;
+}
+.navbar .max-width{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.navbar .logo a{
+    font-size:35px;
+    font-weight: 600;
+    color: white;
+
+}
+.navbar .menu li{
+    list-style:none;
+    display: inline-block;
+}
+.navbar .menu li a{
+    color: white;
+    font-size:18px;
+    font-weight:500px ;
+    margin-left: 25px;
+
+}
+/* home section styling */
+.home{
+    display: flex;
+    background:url("images/frontsection.jpg") no-repeat center;
+    height: 100vh;
+    color: #fff;
+    min-height: 500px;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.home .home-content .text-3 span{
+    color: crimson;
+    font-weight: 500;
+}
+.home .home-content a{
+    display: inline-block;
+    background: crimson;
+    color: #fff;
+    font-size: 25px;
+    padding: 12px 36px;
+    margin-top: 20px;
+    font-weight: 400;
+    border-radius: 6px;
+    border: 2px solid crimson;
+    transition: all 0.3s ease;
+}
+.home .home-content a:hover{
+    color: crimson;
+    background: none;
+}
